@@ -1,0 +1,198 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="DigitalRepository.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>المستودع الرقمي</title>
+    <link href="Images/Logo.png" rel="icon" type="images/png" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/style.min.css" rel="stylesheet" />
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style1.css">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style>
+        .noHover {
+            text-decoration: none !important; 
+        }
+    </style>
+
+</head>
+
+<body style="background-color: #FFFFFF; margin-top: 0px; margin-left: 0px; margin-right: 0px">
+
+    <form id="form1" runat="server">
+
+        <!--Chat bot-->
+        <script>
+            window.addEventListener('mouseover', initLandbot, { once: true });
+            window.addEventListener('touchstart', initLandbot, { once: true });
+            var myLandbot;
+            function initLandbot() {
+                if (!myLandbot) {
+                    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+                    s.addEventListener('load', function () {
+                        var myLandbot = new Landbot.Livechat({
+                            configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1338146-SW9VOC7PGX5XGT2T/index.json',
+                        });
+                    });
+                    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+                    var x = document.getElementsByTagName('script')[0];
+                    x.parentNode.insertBefore(s, x);
+                }
+            }
+        </script>
+
+        <div class="header-wrapper">
+            <nav class="navbar navbar-expand-sm" style="background-color: #1A645C;">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="LoginForm.aspx">تسجيل الدخول <span><i class="fa-solid fa-user-plus"></i></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="LoginForm.aspx">السلة <span><i class="fa-solid fa-cart-shopping"></i></span></a>
+                    </li>
+                </ul>
+                <div class="col-lg-6">
+                    <%--<form action="">--%>
+                    <div class="input-group ">
+                        <asp:LinkButton runat="server" class="input-group-text bg-transparent text-primary noHover"   onclick="btnSearch_Click">
+                            <i class="fa fa-search"></i>
+                        </asp:LinkButton>
+                        <asp:TextBox id="txtSearchMaster" runat="server" type="text" class="form-control"  placeholder="البحث عن منتجات"></asp:TextBox>
+                        <div class="input-group-append">
+                        </div>
+                     </div>
+                    <%--</form>--%>
+                </div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="AboutUs.aspx">نبذة عنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <span style="color: #1A645C">-</span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.aspx#shopWus">منتجاتنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <span style="color: #1A645C">-</span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.aspx">الصفحة الرئيسية</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.aspx">
+                            <img src="Images/Logo.png" width="110"
+                                height="110">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <br><br>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Footer Start -->
+        <br><br><br><br>
+        <div class="footer" ID="footer" dir="rtl">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3 style="color: white; font-weight: bold;">
+                        <img
+                            src="Images/Logo.png" width="55"
+                            height="55"><span>المستودع الرقمي</span></h3>
+                    <p dir="rtl" style="font-size:17px;">
+                        نظام يتيح بيع الكائنات التعليمية أو المقررات الالكترونية
+                        التي يتم إنتاجها<br />
+                    من قبل عمادة التعلم الإلكتروني والتعليم عن بعد بحيث يمكن لأي زائر<br /> من
+                    داخل او خارج جامعة الملك عبدالعزيز بشراء الموارد (تدريب, تعليم, جودة)<br />
+                    بحيث تكون جاهزة للتنزيل على شكل قوالب مع شرح آلية استخدامها.
+                    </p>
+                </div>
+                <div class="footer-section links">
+                    <h3 style="color: white; font-weight: bold;"><span>روابط سريعة</span></h3>
+                    <ul>
+                        <a href="Index.aspx">
+                            <li>الصفحة الرئيسية</li>
+                        </a>
+                        <a href="PrivacyPolicy.aspx">
+                            <li>سياسة الخصوصية</li>
+                        </a>
+                        <a href="AboutUs.aspx#questions">
+                            <li>استفسارات</li>
+                        </a>
+                        <a href="https://www.kau.edu.sa/Home.aspx">
+                            <li>رابط الجامعة</li>
+                        </a>
+                        <a href="https://elearning.kau.edu.sa/Default-214-AR">
+                            <li>رابط العمادة</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer-section contacts">
+
+                    <h3 style="color: white; font-weight: bold;"><span>تواصل معنا</span></h3>
+                    <p><i class="fas fa-location-dot"></i>&nbsp; جدة-جامعة الملك عبدالعزيز</p>
+                    <p><i class="fas fa-envelope"></i>&nbsp; DigitalRepository.KAU@gmail.com</p>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-snapchat"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                &copy; المستودع الرقمي
+            </div>
+        </div>
+
+        <!-- Footer end -->
+    </form>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+        
+</body>
+</html>
