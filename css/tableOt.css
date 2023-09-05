@@ -1,0 +1,203 @@
+﻿body {
+}
+
+table {
+    margin: auto;
+    width: 936px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+td {
+    width: 312px;
+    background-color: white;
+}
+
+.h2 {
+    color: white;
+    background-color: #1A645C;
+    text-align: center;
+    width: 312px;
+}
+
+.tab1 {
+    color: black;
+    width: 100px;
+    text-align: center;
+}
+
+.btn3 {
+    background-color: #3FD1A1;
+    border-radius: 12px;
+    border: 1px solid;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    display: inline-table;
+    display: inline-block;
+    width: 100px;
+    transition-duration: 0.4s;
+}
+
+    .btn3:hover {
+        background-color: #ffffff;
+        color: #3FD1A1;
+    }
+
+.tab1 thead td {
+    color: white;
+    background-color: #1A645C;
+    height: 40px;
+    border-bottom: black dashed;
+}
+
+.tab1 tbody {
+    height: 550px;
+    vertical-align: middle;
+}
+
+.tab2 {
+    color: black;
+    width: 1000px;
+    text-align: center;
+}
+
+    .tab2 thead td {
+        color: white;
+        background-color: #1A645C;
+        width: 1000px;
+        height: 40px;
+        border-bottom: black dashed;
+        text-align: center;
+    }
+
+    .tab2 tbody {
+        height: 400px;
+        vertical-align: middle;
+    }
+
+.tab3 {
+    margin: auto;
+    width: 936px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+    .tab3 td {
+        width: 468px;
+        height: 64px;
+        background-color: #fff;
+        border: 1px solid gray;
+        border-collapse: collapse;
+        color: black;
+        text-align: center;
+    }
+
+    .tab3 thead td {
+        width: 468px;
+        height: 64px;
+        text-align: center;
+        color: aliceblue;
+        background-color: #1A645C;
+        font-weight: bold;
+    }
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.column {
+    width: 15%;
+}
+
+.column1 {
+    width: 85%;
+}
+
+.btn1 {
+    background-color: #3FD1A1;
+    border-radius: 12px;
+    border: 1px solid;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    display: inline-table;
+    display: inline-block;
+    width: 150px;
+    transition-duration: 0.4s;
+}
+
+    .btn1:hover {
+        background-color: #ffffff;
+        color: #3FD1A1;
+        border-block-color: #3FD1A1;
+    }
+
+.btn2 {
+    background-color: #d17c3f;
+    border-radius: 12px;
+    border: 1px solid;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    display: inline-table;
+    display: inline-block;
+    width: 150px;
+    transition-duration: 0.4s;
+}
+
+    .btn2:hover {
+        background-color: #ffffff;
+        color: #d17c3f;
+        border-block-color: #d17c3f;
+    }
+
+div button {
+    background-color: #3FD1A1;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    display: inline-table;
+    display: inline-block;
+    width: 150px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #1A645C;
+}
+
+.btnsA {
+    margin-right: 25px;
+}
+
+.btn1 {
+    background-color:#3FD1A1; 
+    border-radius: 12px;
+    border: 1px solid;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    display: inline-table;
+    display: inline-block;
+    width: 150px;
+    transition-duration: 0.4s;
+}
+
+.btn2 {
+    background-color: #d17c3f;
+    border-radius: 12px;
+    border: 1px solid;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    display: inline-table;
+    display: inline-block;
+    width: 150px;
+    transition-duration: 0.4s;
+}
+

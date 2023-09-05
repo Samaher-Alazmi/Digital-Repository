@@ -1,0 +1,93 @@
+.form-structor {
+    background-color: #3FD1A1;
+    border-radius: 15px;
+    height: 800px;
+    width: 550px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 0px;
+}
+
+    .form-structor .signup {
+        position: absolute;
+        top: 10%;
+        left: 17%;
+        width: 65%;
+        z-index: 5;
+    }
+
+        .form-structor .signup .form-title {
+            color: #fff;
+            font-size: 1.7em;
+            text-align: center;
+            font-weight: bold;
+        }
+
+
+        .form-structor .signup .form-holder {
+            border-radius: 15px;
+            background-color: #fff;
+            overflow: hidden;
+            margin-top: 50px;
+            margin-bottom: 10%;
+            opacity: 1;
+            visibility: visible;
+        }
+
+            .form-structor .signup .form-holder .input {
+                border: 0;
+                outline: none;
+                box-shadow: none;
+                display: block;
+                height: 30px;
+                line-height: 30px;
+                padding: 8px 15px;
+                border-bottom: 1px solid #eee;
+                width: 100%;
+                font-size: 12px;
+            }
+
+        .form-structor .signup .submit-btn {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: rgba(255, 255, 255, 0.7);
+            border: 0;
+            border-radius: 15px;
+            display: block;
+            margin: 15px auto;
+            padding: 15px 45px;
+            width: 100%;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+            opacity: 1;
+            visibility: visible;
+        }
+
+            .form-structor .signup .submit-btn:hover {
+                transition: all 0.3s ease;
+                background-color: rgba(0, 0, 0, 0.8);
+            }
+
+input[type="file"] {
+    display: none;
+}
+
+.fileUpload-btn {
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.7);
+    border: 0;
+    border-radius: 12px;
+    display: block;
+    margin: 15px auto;
+    padding: 5px;
+    width: 35%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 1;
+    visibility: visible;
+}

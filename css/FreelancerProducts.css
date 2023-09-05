@@ -1,0 +1,16 @@
+﻿
+.ContentBox2 {
+    border: 1px solid black;
+    margin-right: 117px;
+    margin-bottom: 50px;
+    float: right;
+    width: 202px;
+}
+
+.product2 {
+    color: black;
+    padding-right: 15px;
+    margin-bottom: 0px;
+    background-color: white;
+    width: 200px;
+}

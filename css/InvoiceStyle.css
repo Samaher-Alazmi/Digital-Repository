@@ -1,0 +1,207 @@
+﻿body {
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #777;
+}
+
+    body h1 {
+        font-weight: 300;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        color: #000;
+    }
+
+    body h3 {
+        font-weight: 300;
+        margin-top: 30px;
+        margin-right: 80px;
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(255, 249, 249);
+    }
+
+    body h4 {
+        font-weight: 300;
+        margin: auto;
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(255, 249, 249);
+        font-size: 16px;
+    }
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.bill {
+    font-weight: 300;
+    margin-top: 30px;
+    margin-right: 80px;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 249, 249);
+    font-size: 35px;
+}
+
+.bill2 {
+    font-weight: 300;
+    margin-top: 100px;
+    margin-right: 80px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 249, 249);
+    font-size: 14px;
+    text-align: right;
+}
+
+
+.container {
+    width: 800px;
+    height: 1080px;
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+}
+
+.container2 {
+    width: 100%;
+    height: 218px;
+    margin-bottom: 60px;
+    font-size: 24px;
+    background-color: #1A645C;
+    display: inline-block;
+}
+
+.cont3 {
+    width: 100%;
+    height: 218px;
+    margin-bottom: 2px;
+    text-align: right;
+    display: inline-block;
+}
+
+
+.from {
+    width: 15%;
+    font-size: 16px;
+    font-style: italic;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    display: flex;
+    text-align: right;
+}
+
+.address {
+    width: fit-content;
+    margin-top: 50px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6F6E70;
+    font-size: 14px;
+    display: flex;
+    text-align: right;
+}
+
+.to {
+    margin-left: 250px;
+    font-size: 16px;
+    font-style: italic;
+    font-style: bold;
+    width: 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    display: flex;
+    text-align: right;
+}
+
+.address2 {
+    margin-top: 50px;
+    margin-left: 70px;
+    width: fit-content;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6F6E70;
+    font-size: 14px;
+    display: flex;
+    text-align: right;
+}
+
+.mon {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: fit-content;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6F6E70;
+    font-size: 14px;
+    display: flex;
+    text-align: right;
+}
+
+
+.total {
+    font-style: italic;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6F6E70;
+    margin-top: 50px;
+    border-spacing: 10px;
+    margin-right: 80px;
+}
+
+.billbtn {
+    background-color: #3FD1A1;
+    color: white;
+    padding: 12px;
+    margin: 0px;
+    border: none;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    align-items: center;
+}
+
+    .billbtn:hover {
+        background-color: #ffffff;
+        color: #3FD1A1;
+        border: 1px solid #3FD1A1;
+    }
+
+
+table {
+    width: 90%;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-bottom: 100px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+}
+
+table, td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+}
+
+tr:nth-child(1) {
+    background-color: #F8F7FA;
+    border: 1px solid #ddd;
+}

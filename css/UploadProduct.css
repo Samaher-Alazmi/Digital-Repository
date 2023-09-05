@@ -1,0 +1,86 @@
+﻿
+
+.containerA {
+    background-color: #C8D4D3;
+    border-radius: 5px;
+    height: 500px;
+    width: 1000px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid rgb(132, 125, 125);
+}
+
+.text1{
+    margin-top: 90px;
+    color: black;
+    text-align: center;
+    font-size:60px;
+    font-weight:bolder;
+}
+    
+
+
+.icon_cloud {
+    font-size: 4.7em;
+    color: darkgreen;
+    position: absolute;
+    right:460px;
+    width: 800px;
+    height: 230px;
+    top: 20%;
+}
+
+.uploadLabelRed {
+    display: inline-block;
+    padding: 1px 6px;
+    margin-bottom: 10;
+    margin-left: 300px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.pose{
+    margin-right:270px;
+    margin-top:200px;
+}
+.next{
+    float:left;
+    margin-top:100px;
+}
+
+
+.btn1 {
+    margin-left: 50px;
+    margin-left: 50px;
+    padding: 10px 40px;
+    background:#e3a344;
+     color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn2 {
+    margin-left: 20px;
+    margin-right: 50px;
+    padding: 10px 40px;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.position {
+    justify-content: center;
+    display:flex;
+    justify-items: center;
+   margin-top:40px;
+}}

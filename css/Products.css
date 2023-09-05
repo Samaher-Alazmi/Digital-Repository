@@ -1,0 +1,267 @@
+﻿.OuterBox {
+    border-top: 30px solid #1A645C;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 50px;
+    box-shadow: 1px 1px 5px 2px #ECECEC;
+    height: 850px;
+}
+
+.ContentBox {
+    border: 1px solid black;
+    border-bottom-left-radius: 1em; 
+    border-bottom-right-radius: 1em;
+    margin-right: 60px;
+    float: right;
+    width: 352px;
+}
+
+.product {
+    color: black;
+    padding-right: 15px;
+    margin-bottom: 0px;
+    background-color: white;
+    width: 350px;
+
+}
+
+.text {
+    color: #1A645C;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 90px;
+}
+
+.button {
+    color: white;
+    font-size: 30px;
+    background-color: #3FD1A1;
+    width: 350px;
+    border: none;
+    border-bottom-left-radius: 0.6em;
+    border-bottom-right-radius: 0.6em;
+}
+
+.head {
+    color: #1A645C;
+    font-size: 25px;
+    font-weight: bold;
+    text-indent: 410px;
+    float: left;
+}
+
+.detail {
+    color: #1A645C;
+    font-size: 15px;
+    text-indent: 250px;
+    float: left;
+}
+
+.picture {
+    float: right;
+    margin-right: 15%;
+    border: 1px solid;
+    border-color: black;
+}
+
+.btn11 {
+    background-color: #3FD1A1;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    width: 150px;
+    margin-right: 20%;
+}
+
+    .btn11:hover {
+        background-color: #ffffff;
+        color: #3FD1A1;
+        border: 1px solid;
+    }
+
+/*Used in the Admin homepage and Admin user management*/
+.buttons {
+    background-color: #3FD1A1;
+    border-radius: 12px;
+    border: none;
+    outline: 0px;
+    color: white;
+    padding: 20px 32px !important;
+    display: inline-table;
+    width: 90%;
+}
+
+.buttons:hover {
+    background-color: #fff;
+    color: #3FD1A1;
+    border: 1px solid #3FD1A1;
+    outline: 0px;
+}
+
+@import url('welcomestyle.css');
+
+.welcome {
+    color: #1A645C;
+    margin-right: 170px;
+    font-size: 30px;
+    margin-top: -80px;
+}
+
+/*Products management page and product details*/
+
+.auto-style1 {
+    height: 490px;
+    margin-top: 109px;
+    background-color: #C8D4D3;
+    text-align: center;
+    width: 1350px;
+    margin-left: 2.5%;
+    color: black;
+}
+
+.auto-style2 {
+    width: 78%;
+    margin-top: 98px;
+    margin-left: 140px;
+}
+
+.auto-style4 {
+    width: 316px;
+    margin-left: 4px;
+}
+
+.auto-style5 {
+    width: 156px;
+    margin-left: 168px;
+}
+
+.auto-style15 {
+    width: 323px;
+    height: 162px;
+}
+
+.auto-style20 {
+    direction: rtl;
+}
+
+.auto-style21 {
+    font-weight: bold;
+}
+
+.auto-style25 {
+    width: 332px;
+    text-align: right;
+    height: 26px;
+}
+
+.auto-style26 {
+    width: 332px;
+    height: 29px;
+}
+
+.auto-style27 {
+    width: 332px;
+    height: 29px;
+    text-align: right;
+}
+
+.auto-style31 {
+    width: 63px;
+    text-align: right;
+    height: 26px;
+}
+
+.auto-style32 {
+    width: 63px;
+    height: 29px;
+}
+
+.auto-style33 {
+    width: 63px;
+    height: 29px;
+    text-align: right;
+}
+
+.auto-style34 {
+    width: 569px;
+    text-align: right;
+}
+
+.auto-style37 {
+    width: 206px;
+    text-align: right;
+    height: 26px;
+}
+
+.auto-style38 {
+    width: 206px;
+    height: 29px;
+}
+
+.auto-style39 {
+    width: 206px;
+    height: 29px;
+    text-align: right;
+}
+
+.auto-style40 {
+    width: 206px;
+    text-align: right;
+}
+
+.auto-style42 {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.auto-style45 {
+    color: #1AB2E8;
+    text-decoration: underline;
+    border-color: #C8D4D3;
+    background-color: #F1F1F1;
+    width: 122px;
+}
+
+.auto-style47 {
+    background-color: #CCCCCC;
+}
+
+.auto-style48 {
+    background-color: #C0C0C0;
+}
+
+.auto-style49 {
+    width: 57px;
+    margin-left: 0px;
+}
+
+.auto-style50 {
+    width: 62px;
+}
+
+.auto-style51 {
+    width: 332px;
+    height: 29px;
+    text-align: center;
+}
+
+.auto-style52 {
+    float: right;
+    position: relative;
+}
+
+.auto-style53 {
+    width: 62px;
+    float: left;
+    position: relative;
+    left: 120px;
+}
+
+.title {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-right: 40%;
+}

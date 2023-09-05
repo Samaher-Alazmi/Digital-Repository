@@ -1,0 +1,33 @@
+﻿.btn-edit {
+    color: black;
+    background-color: #F0F0F0;
+    border-radius: 2px;
+    border: dimgray 1px solid;
+    padding: 3px 6px;
+}
+
+    .btn-edit:hover {
+        color: black;
+        background-color: #e5e5e5;
+        text-decoration: none;
+    }
+
+.btn-pdf {
+    background-color: #1A645C;
+    border-radius: 10px;
+    border: 1px solid;
+    color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: center;
+    display: inline-table;
+    display: inline-block;
+    width: 150px;
+    transition-duration: 0.4s;
+}
+
+    .btn-pdf:hover {
+        background-color: #ffffff;
+        color: #1A645C;
+        border-block-color: #1A645C;
+    }
